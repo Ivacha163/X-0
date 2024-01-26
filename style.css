@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0;
+  background-image: url(./25279182-générée-par-ordinateur-texture-3d-du-mur-blanc-gaufré.jpg);
+}
+
+
+table {
+  border-collapse: collapse;
+  border-radius: 20%;
+ }  
+
+
+#krestiknolik {
+  margin-bottom: 20px; 
+}
+
+#krestiknolik td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 80px;
+  cursor:pointer;
+  border: 6px solid black;
+  
+ 
+ 
+  
+}
+
+#krestiknolik td:first-child {
+  border-left: 0;
+}
+
+#krestiknolik td:last-child {
+  border-right: 0; 
+}
+
+#krestiknolik tr:first-child td {
+  border-top: 0; 
+}
+
+#krestiknolik tr:last-child td {
+  border-bottom: 0; 
+}
+
+
+#krestiknolik .x {
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#krestiknolik .o {
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#krestiknolik td.x-winner,
+    #krestiknolik td.o-winner {
+      
+      background-color: lightgreen; 
+    }
+
+#resetButton {
+  margin-top: 600px;
+  border: 2px solid;
+  border-radius: 20px;
+  background: orange;
+  font-size: 20px;
+  cursor: pointer;
+}
+  
+
+  
